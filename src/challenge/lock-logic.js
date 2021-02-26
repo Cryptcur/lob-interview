@@ -10,6 +10,10 @@ const lockState = window.mobx.observable({
 // Since there are no loops or iterations,
 // and no arrays and objects created to use memory,
 // Time and Space complexity are constant 0(1)
+
+// We can loop through using SECRET_COMBO using array method every()
+// Then Big O will be O(N) where N is the amount of elements in the array
+
 function changeDialValue(index, incrementBy) {
   //When a user clicks on either arrow at any index
   //the wheel of the index the user is trying to change will increment or decrement by 1
